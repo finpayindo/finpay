@@ -3,6 +3,9 @@
 * vastmandiri / Felisa Permata Open
 */
 
+date_default_timezone_set('Asia/Jakarta');
+// echo 'Indonesian Timezone: ' . date('d-m-Y H:i:s');
+
 class WC_Gateway_Finpay_Vastmandiri extends WC_Payment_Gateway {
 
   /**

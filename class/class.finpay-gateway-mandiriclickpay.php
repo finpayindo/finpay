@@ -3,6 +3,9 @@
 * mandiriclickpay / Mandiri Clickpay
 */
 
+date_default_timezone_set('Asia/Jakarta');
+// echo 'Indonesian Timezone: ' . date('d-m-Y H:i:s');
+
 class WC_Gateway_Finpay_Mandiriclickpay extends WC_Payment_Gateway {
 
   /**
